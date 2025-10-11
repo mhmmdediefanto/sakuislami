@@ -1,4 +1,5 @@
 import { Book, Bookmark } from "lucide-react";
+import Link from "next/link";
 
 const ServicesSection = () => {
   const services = [
@@ -7,30 +8,35 @@ const ServicesSection = () => {
       description:
         "Baca Al Quran lengkap dengan terjemahan per kata, tafsir Kemenag, dan dengarkan audio murottal dari qari favorit Anda.",
       icon: <Book className="w-6 h-6 lg:w-9 lg:h-9 text-primary" />,
+      href: "/al-quran",
     },
     {
       title: "Sholat Digital",
       description:
         "Panduan sholat lengkap dari takbir hingga salam, disertai jadwal sholat akurat dan notifikasi adzan.",
       icon: <Bookmark className="w-6 h-6 lg:w-9 lg:h-9 text-primary" />,
+      href: "/sholat",
     },
     {
       title: "Doa Digital",
       description:
         "Temukan ratusan doa harian shahih, simpan doa favorit, dan aktifkan pengingat untuk membacanya di waktu mustajab.",
       icon: <Book className="w-6 h-6 lg:w-9 lg:h-9 text-primary" />,
+      href: "/doa",
     },
     {
       title: "Sholawat Digital",
       description:
         "Lantunkan beragam sholawat Nabi, pahami keutamaannya, dan raih keberkahan setiap hari dengan fitur pengingat dan tasbih digital.",
       icon: <Book className="w-6 h-6 lg:w-9 lg:h-9 text-primary" />,
+      href: "/sholawat",
     },
     {
       title: "Dakwah Digital",
       description:
         "Tambah wawasan keislaman Anda setiap hari melalui kumpulan artikel ringan, video tausiyah, dan podcast inspiratif dari sumber terpercaya.",
       icon: <Book className="w-6 h-6 lg:w-9 lg:h-9 text-primary" />,
+      href: "/dakwah",
     },
   ];
   return (
@@ -46,7 +52,8 @@ const ServicesSection = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {services?.map((service, i) => (
-          <div
+          <Link
+            href={service.href}
             key={i}
             className="bg-gray-950 rounded-lg border border-gray-800 p-4 flex flex-col gap-2"
           >
@@ -69,7 +76,7 @@ const ServicesSection = () => {
                 {service.description}
               </p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

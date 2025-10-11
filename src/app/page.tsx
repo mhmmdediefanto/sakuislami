@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <>
       <div className="w-full max-w-7xl mx-auto px-4 my-10">
-        <HeroSection />
+        <HeroSection subtitle="Saku Islami Digital Indonesia adalah platform yang membantu Anda untuk
+        mempelajari dan memahami Al Quran dengan cara yang lebih efektif dan
+        efisien." title="Kebaikan Islam dalam Genggaman Anda"/>
         <ServicesSection />
       </div>
     </>
