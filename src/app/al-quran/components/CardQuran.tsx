@@ -43,7 +43,7 @@ const CardQuran = ({ quran }: CardQuranProps) => {
             </div>
           </div>
           {/* judul surat arab */}
-          <div className="text-lg sm:text-2xl font-arabic text-primary ml-auto">
+          <div className="text-lg sm:text-2xl font-noto text-primary ml-auto">
             {quran.nama}
           </div>
         </div>

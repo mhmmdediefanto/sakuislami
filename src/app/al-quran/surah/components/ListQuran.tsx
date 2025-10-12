@@ -76,7 +76,7 @@ const ListQuran = ({ dataAlquran }: ListQuranProps) => {
           </div>
         </div>
         <div className="flex-shrink-0 ml-2 lg:ml-3">
-          <p className="text-sm lg:text-lg font-arabic text-primary leading-relaxed">
+          <p className="text-sm lg:text-lg font-noto text-primary leading-relaxed">
             {dataAlquran.nama}
           </p>
         </div>

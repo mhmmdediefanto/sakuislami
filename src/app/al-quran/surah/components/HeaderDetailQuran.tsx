@@ -33,7 +33,7 @@ const HeaderDetailQuran = ({
                 </p>
               </div>
             </div>
-            <h1 className="md:text-4xl text-lg font-semibold text-primary">
+            <h1 className="md:text-4xl text-lg font-semibold text-primary font-noto">
               {detailAlquran?.nama}
             </h1>
           </div>

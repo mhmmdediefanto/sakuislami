@@ -12,7 +12,7 @@ const ListAyat = ({ ayat }: ListAyatProps) => {
         <div className="p-4 sm:p-6 font-quicksa">
           <NomerPage nomer={String(ayat.nomorAyat)} />
           <div className="mb-1">
-            <p className="text-lg sm:text-xl md:text-2xl to-white leading-[1.5] sm:leading-[2] md:leading-[3] text-right font-arabic break-words">
+            <p className="text-lg sm:text-xl md:text-2xl to-white leading-[1.5] sm:leading-[2] md:leading-[3] text-right font-noto break-words">
               {ayat.teksArab}
             </p>
           </div>

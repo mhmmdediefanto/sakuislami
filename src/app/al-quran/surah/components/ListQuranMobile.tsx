@@ -89,7 +89,7 @@ const ListQuranMobile = ({
                       <NomerPage nomer={String(item.nomor)} />
                       <div className="min-w-0 flex-1">
                         <div className="flex items-center space-x-2">
-                          <span className="font-medium text-sm truncate font-arabic">
+                          <span className="font-medium text-sm truncate font-noto">
                             {item.namaLatin}
                           </span>
                           <span className="text-xs text-muted-foreground">

@@ -1,14 +1,12 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
-import { Doa } from "@/types/DoaTypes";
-import { CardDoa } from "./components/CardDoa";
+import ListDoa from "./components/ListDoa";
 
 const fetchDoa = async () => {
   const res = await fetch("https://equran.id/api/doa", {
     next: { revalidate: 3600 }, // Contoh: cache data selama 1 jam
   });
   const data = await res.json();
-
   return data.data;
 };
 
@@ -22,7 +20,7 @@ const page = async () => {
           subtitle="Temukan doa-doa harian yang menenangkan jiwa, membimbing langkah,
 dan mengingatkan kita bahwa setiap detik adalah kesempatan untuk mendekat kepada Allah SWT."
         />
-        <div className=" text-center font-quicksand mb-5">
+        <div className=" text-center font-quicksand mb-10 my-10">
           <h1 className=" inline-block font-semibold border-b-2 border-dotted text-lg border-primary md:text-2xl">
             Kumpulan Doa-Doa Harian
           </h1>
@@ -32,19 +30,7 @@ dan mengingatkan kita bahwa setiap detik adalah kesempatan untuk mendekat kepada
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 px-4 gap-4">
-          {doa?.map((item: Doa, i: number) => (
-            <CardDoa.Card key={i}>
-              <CardDoa.CardHeader title={item.nama} grup={item.grup} />
-              <CardDoa.CardContent tentang={item.tentang}>
-                {item.tag?.map((tag: string, i: number) => (
-                  <CardDoa.CardContentTag key={i}>{tag}</CardDoa.CardContentTag>
-                ))}
-              </CardDoa.CardContent>
-              <CardDoa.CardFooter id={String(item.id)} />
-            </CardDoa.Card>
-          ))}
-        </div>
+       <ListDoa doas={doa} />
       </div>
     </>
   );

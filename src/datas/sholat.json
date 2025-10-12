@@ -1,0 +1,202 @@
+{
+  "kategori": [
+    {
+      "id": 1,
+      "nama": "Sholat Fardhu",
+      "deskripsi": "Sholat wajib lima waktu yang harus dilakukan oleh setiap muslim.",
+      "daftar_sholat": [1, 2, 3, 4, 5]
+    }
+  ],
+  "sholat": [
+    {
+      "id": 1,
+      "nama": "Sholat Subuh",
+      "kategori_id": 1,
+      "jumlah_rakaat": 2,
+      "waktu": "Setelah terbit fajar hingga sebelum matahari terbit",
+      "tata_cara_id": 101
+    },
+    {
+      "id": 2,
+      "nama": "Sholat Dzuhur",
+      "kategori_id": 1,
+      "jumlah_rakaat": 4,
+      "waktu": "Setelah matahari tergelincir ke barat hingga bayangan benda sama panjangnya",
+      "tata_cara_id": 102
+    },
+    {
+      "id": 3,
+      "nama": "Sholat Ashar",
+      "kategori_id": 1,
+      "jumlah_rakaat": 4,
+      "waktu": "Setelah bayangan benda sama panjang hingga menjelang matahari terbenam",
+      "tata_cara_id": 103
+    },
+    {
+      "id": 4,
+      "nama": "Sholat Maghrib",
+      "kategori_id": 1,
+      "jumlah_rakaat": 3,
+      "waktu": "Setelah matahari terbenam hingga hilang cahaya merah di langit",
+      "tata_cara_id": 104
+    },
+    {
+      "id": 5,
+      "nama": "Sholat Isya",
+      "kategori_id": 1,
+      "jumlah_rakaat": 4,
+      "waktu": "Setelah hilangnya cahaya merah di langit hingga menjelang fajar",
+      "tata_cara_id": 105
+    }
+  ],
+  "tata_cara": [
+    {
+      "id": 101,
+      "sholat_id": 1,
+      "langkah": [
+        {
+          "urutan": 1,
+          "judul": "Niat",
+          "arab": "أُصَلِّي فَرْضَ الصُّبْحِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
+          "latin": "Ushalli fardhas subhi rak‘ataini mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
+          "arti": "Aku niat sholat fardhu Subuh dua rakaat menghadap kiblat karena Allah Ta’ala."
+        },
+        {
+          "urutan": 2,
+          "judul": "Takbiratul Ihram",
+          "arab": "اللّٰهُ أَكْبَرُ",
+          "latin": "Allāhu Akbar",
+          "arti": "Allah Maha Besar."
+        },
+        {
+          "urutan": 3,
+          "judul": "Doa Iftitah",
+          "arab": "اللّٰهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ المَشْرِقِ وَالمَغْرِبِ...",
+          "latin": "Allāhumma bā‘id bainī wa baina khaṭāyāya kamā bā‘adta bainal masyriqi wal maghrib...",
+          "arti": "Ya Allah, jauhkanlah aku dari kesalahanku sebagaimana Engkau menjauhkan timur dan barat..."
+        },
+        {
+          "urutan": 4,
+          "judul": "Membaca Al-Fatihah dan Surah Pendek",
+          "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ...",
+          "latin": "Bismillāhir-raḥmānir-raḥīm...",
+          "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang..."
+        },
+        {
+          "urutan": 5,
+          "judul": "Ruku’",
+          "arab": "سُبْحَانَ رَبِّيَ الْعَظِيْمِ",
+          "latin": "Subḥāna rabbiyal ‘aẓīm",
+          "arti": "Maha Suci Tuhanku Yang Maha Agung."
+        },
+        {
+          "urutan": 6,
+          "judul": "I’tidal",
+          "arab": "سَمِعَ اللّٰهُ لِمَنْ حَمِدَهُ رَبَّنَا وَلَكَ الْحَمْدُ",
+          "latin": "Sami‘allāhu liman ḥamidah, rabbana wa lakal ḥamd.",
+          "arti": "Allah mendengar orang yang memuji-Nya. Ya Tuhan kami, bagi-Mu segala pujian."
+        },
+        {
+          "urutan": 7,
+          "judul": "Sujud",
+          "arab": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "latin": "Subḥāna rabbiyal a‘lā",
+          "arti": "Maha Suci Tuhanku Yang Maha Tinggi."
+        },
+        {
+          "urutan": 8,
+          "judul": "Duduk di antara dua sujud",
+          "arab": "رَبِّ اغْفِرْ لِي، وَارْحَمْنِي، وَاجْبُرْنِي، وَارْفَعْنِي، وَارْزُقْنِي، وَاهْدِنِي، وَعَافِنِي، وَاعْفُ عَنِّي",
+          "latin": "Rabbighfir lī, warḥamnī, wajburnī, warfa‘nī, warzuqnī, wahdinī, wa‘āfinī, wa‘fu ‘annī.",
+          "arti": "Ya Tuhanku, ampunilah aku, rahmatilah aku, cukupkanlah aku, angkatlah derajatku, berilah aku rezeki, tunjukilah aku, sehatkanlah aku, dan maafkanlah aku."
+        },
+        {
+          "urutan": 9,
+          "judul": "Tasyahhud Akhir",
+          "arab": "التَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ...",
+          "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt...",
+          "arti": "Segala kehormatan, keberkahan, dan kebaikan hanyalah milik Allah..."
+        },
+        {
+          "urutan": 10,
+          "judul": "Salam",
+          "arab": "اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللّٰهِ",
+          "latin": "Assalāmu ‘alaikum wa raḥmatullāh.",
+          "arti": "Semoga keselamatan dan rahmat Allah tercurah kepadamu."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "sholat_id": 2,
+      "langkah": [
+        {
+          "urutan": 1,
+          "judul": "Niat",
+          "arab": "أُصَلِّي فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
+          "latin": "Ushalli fardhazh-zhuhri arba‘a raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
+          "arti": "Aku niat sholat fardhu Dzuhur empat rakaat menghadap kiblat karena Allah Ta’ala."
+        },
+        {
+          "urutan": 2,
+          "judul": "Langkah-langkah",
+          "arti": "Lakukan empat rakaat seperti tata cara Subuh. Setelah rakaat kedua duduk tasyahhud awal, lalu rakaat keempat tasyahhud akhir dan salam."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "sholat_id": 3,
+      "langkah": [
+        {
+          "urutan": 1,
+          "judul": "Niat",
+          "arab": "أُصَلِّي فَرْضَ الْعَصْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
+          "latin": "Ushalli fardhal ‘ashri arba‘a raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
+          "arti": "Aku niat sholat fardhu Ashar empat rakaat menghadap kiblat karena Allah Ta’ala."
+        },
+        {
+          "urutan": 2,
+          "judul": "Langkah-langkah",
+          "arti": "Lakukan empat rakaat seperti Dzuhur: dua rakaat pertama baca surah, dua rakaat terakhir hanya Al-Fatihah, dan tasyahhud akhir di rakaat keempat."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "sholat_id": 4,
+      "langkah": [
+        {
+          "urutan": 1,
+          "judul": "Niat",
+          "arab": "أُصَلِّي فَرْضَ الْمَغْرِبِ ثَلَاثَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
+          "latin": "Ushalli fardhal maghribi thalātha raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
+          "arti": "Aku niat sholat fardhu Maghrib tiga rakaat menghadap kiblat karena Allah Ta’ala."
+        },
+        {
+          "urutan": 2,
+          "judul": "Langkah-langkah",
+          "arti": "Rakaat 1–2 baca Al-Fatihah dan surah pendek, duduk tasyahhud awal setelah rakaat kedua, rakaat ketiga hanya Al-Fatihah lalu tasyahhud akhir dan salam."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "sholat_id": 5,
+      "langkah": [
+        {
+          "urutan": 1,
+          "judul": "Niat",
+          "arab": "أُصَلِّي فَرْضَ الْعِشَاءِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
+          "latin": "Ushalli fardhal ‘ishā’i arba‘a raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
+          "arti": "Aku niat sholat fardhu Isya empat rakaat menghadap kiblat karena Allah Ta’ala."
+        },
+        {
+          "urutan": 2,
+          "judul": "Langkah-langkah",
+          "arti": "Empat rakaat seperti sholat Dzuhur: dua rakaat pertama baca surah, dua terakhir hanya Al-Fatihah. Tasyahhud awal di rakaat kedua dan akhir di rakaat keempat, lalu salam."
+        }
+      ]
+    }
+  ]
+}
