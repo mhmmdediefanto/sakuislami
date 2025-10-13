@@ -53,148 +53,434 @@
     {
       "id": 101,
       "sholat_id": 1,
+      "nama_sholat": "Sholat Subuh",
+      "jumlah_rakaat": 2,
       "langkah": [
         {
           "urutan": 1,
-          "judul": "Niat",
+          "nama": "Niat Sholat Subuh",
           "arab": "أُصَلِّي فَرْضَ الصُّبْحِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
-          "latin": "Ushalli fardhas subhi rak‘ataini mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
-          "arti": "Aku niat sholat fardhu Subuh dua rakaat menghadap kiblat karena Allah Ta’ala."
+          "latin": "Ushalli fardhas shubhi rak‘ataini mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
+          "arti": "Aku niat shalat fardhu Subuh dua rakaat menghadap kiblat karena Allah Ta‘ala."
         },
         {
           "urutan": 2,
-          "judul": "Takbiratul Ihram",
+          "nama": "Takbiratul Ihram",
           "arab": "اللّٰهُ أَكْبَرُ",
-          "latin": "Allāhu Akbar",
+          "latin": "Allāhu akbar.",
           "arti": "Allah Maha Besar."
         },
         {
           "urutan": 3,
-          "judul": "Doa Iftitah",
-          "arab": "اللّٰهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ المَشْرِقِ وَالمَغْرِبِ...",
-          "latin": "Allāhumma bā‘id bainī wa baina khaṭāyāya kamā bā‘adta bainal masyriqi wal maghrib...",
-          "arti": "Ya Allah, jauhkanlah aku dari kesalahanku sebagaimana Engkau menjauhkan timur dan barat..."
+          "nama": "Doa Iftitah",
+          "arab": "اللّٰهُ أَكْبَرُ كَبِيرًا وَالْحَمْدُ لِلّٰهِ كَثِيرًا وَسُبْحَانَ اللّٰهِ بُكْرَةً وَأَصِيلًا...",
+          "latin": "Allāhu akbaru kabīrā walhamdu lillāhi katsīrā, wa subhānallāhi bukratan wa ashīlā...",
+          "arti": "Allah Maha Besar dengan sebesar-besarnya... (bacaan lengkap seperti biasanya)"
         },
         {
           "urutan": 4,
-          "judul": "Membaca Al-Fatihah dan Surah Pendek",
-          "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ...",
+          "nama": "Al-Fatihah",
+          "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ...",
           "latin": "Bismillāhir-raḥmānir-raḥīm...",
           "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang..."
         },
         {
           "urutan": 5,
-          "judul": "Ruku’",
-          "arab": "سُبْحَانَ رَبِّيَ الْعَظِيْمِ",
-          "latin": "Subḥāna rabbiyal ‘aẓīm",
-          "arti": "Maha Suci Tuhanku Yang Maha Agung."
+          "nama": "Surat Pendek (contoh Al-Ikhlas)",
+          "arab": "قُلْ هُوَ اللّٰهُ أَحَدٌ ﴿١﴾ اللّٰهُ الصَّمَدُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدْ ﴿٣﴾ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ ﴿٤﴾",
+          "latin": "Qul huwa Allāhu aḥad, Allāhuṣ-ṣamad, lam yalid wa lam yūlad, wa lam yakun lahu kufuwan aḥad.",
+          "arti": "Katakanlah: Dialah Allah, Yang Maha Esa..."
         },
         {
           "urutan": 6,
-          "judul": "I’tidal",
-          "arab": "سَمِعَ اللّٰهُ لِمَنْ حَمِدَهُ رَبَّنَا وَلَكَ الْحَمْدُ",
-          "latin": "Sami‘allāhu liman ḥamidah, rabbana wa lakal ḥamd.",
-          "arti": "Allah mendengar orang yang memuji-Nya. Ya Tuhan kami, bagi-Mu segala pujian."
+          "nama": "Rukuk",
+          "arab": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "latin": "Subhāna rabbiyal ‘azhīm.",
+          "arti": "Mahasuci Tuhanku Yang Maha Agung."
         },
         {
           "urutan": 7,
-          "judul": "Sujud",
-          "arab": "سُبْحَانَ رَبِّيَ الأَعْلَى",
-          "latin": "Subḥāna rabbiyal a‘lā",
-          "arti": "Maha Suci Tuhanku Yang Maha Tinggi."
+          "nama": "I'tidal",
+          "arab": "سَمِعَ اللّٰهُ لِمَنْ حَمِدَهُ، رَبَّنَا لَكَ الْحَمْدُ",
+          "latin": "Sami‘allāhu liman ḥamidah, rabbana laka al-ḥamd.",
+          "arti": "Allah mendengar orang yang memuji-Nya. Ya Tuhan kami, bagi-Mu segala puji."
         },
         {
           "urutan": 8,
-          "judul": "Duduk di antara dua sujud",
-          "arab": "رَبِّ اغْفِرْ لِي، وَارْحَمْنِي، وَاجْبُرْنِي، وَارْفَعْنِي، وَارْزُقْنِي، وَاهْدِنِي، وَعَافِنِي، وَاعْفُ عَنِّي",
-          "latin": "Rabbighfir lī, warḥamnī, wajburnī, warfa‘nī, warzuqnī, wahdinī, wa‘āfinī, wa‘fu ‘annī.",
-          "arti": "Ya Tuhanku, ampunilah aku, rahmatilah aku, cukupkanlah aku, angkatlah derajatku, berilah aku rezeki, tunjukilah aku, sehatkanlah aku, dan maafkanlah aku."
+          "nama": "Sujud",
+          "arab": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+          "latin": "Subhāna rabbiyal a‘lā.",
+          "arti": "Mahasuci Tuhanku Yang Maha Tinggi."
         },
         {
           "urutan": 9,
-          "judul": "Tasyahhud Akhir",
-          "arab": "التَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ...",
-          "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt...",
-          "arti": "Segala kehormatan, keberkahan, dan kebaikan hanyalah milik Allah..."
+          "nama": "Duduk di antara dua sujud",
+          "arab": "رَبِّ اغْفِرْ لِي، وَارْحَمْنِي، وَاهْدِنِي، وَعَافِنِي، وَارْزُقْنِي",
+          "latin": "Rabbi ighfir lī, warḥamnī, wahdinī, wa ‘āfinī, warzuqnī.",
+          "arti": "Ya Tuhanku, ampunilah aku, rahmatilah aku, tunjukilah aku, sehatkan aku, dan berilah aku rezeki."
         },
         {
           "urutan": 10,
-          "judul": "Salam",
-          "arab": "اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللّٰهِ",
-          "latin": "Assalāmu ‘alaikum wa raḥmatullāh.",
-          "arti": "Semoga keselamatan dan rahmat Allah tercurah kepadamu."
+          "nama": "Rakaat Kedua: Setelah I'tidal - Qunut",
+          "arab": "اَللّٰهُمَّ اهْدِنِي فِيمَنْ هَدَيْتَ، وَعَافِنِي فِيمَنْ عَافَيْتَ، وَتَوَلَّنِي فِيمَنْ تَوَلَّيْتَ، وَبَارِكْ لِي فِيمَا أَعْطَيْتَ، وَقِنِي شَرَّ مَا قَضَيْتَ، فَإِنَّكَ تَقْضِي وَلَا يُقْضَى عَلَيْكَ، إِنَّهُ لَا يَذِلُّ مَنْ وَالَيْتَ، وَلَا يَعِزُّ مَنْ عَادَيْتَ، تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ، فَلَكَ الْحَمْدُ عَلَى مَا قَضَيْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ، وَصَلَّى اللّٰهُ عَلَى سَيِّدِنَا مُحَمَّدٍ النَّبِيِّ الْأُمِّيِّ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ.",
+          "latin": "Allāhummah-dinī fīman hadait, wa ‘āfinī fīman ‘āfait, wa tawallanī fīman tawallait, wa bārik lī fīmā a‘thait, wa qinī syarra mā qadhait, fa innaka taqdhī wa lā yuqdhā ‘alaik, innahu lā yadzillu man wālait, wa lā ya‘izzu man ‘ādait, tabārakta rabbana wa ta‘ālaik, falakal ḥamdu ‘alā mā qadhait, astaghfiruka wa atūbu ilaik, wa shallallāhu ‘alā sayyidinā Muḥammadin nabiyyil ummiyyi wa ‘alā ālihi wa ṣaḥbihi wa sallam.",
+          "arti": "Ya Allah, berilah aku petunjuk bersama orang-orang yang telah Engkau beri petunjuk, berilah aku kesehatan bersama orang-orang yang telah Engkau beri kesehatan, peliharalah aku bersama orang-orang yang telah Engkau pelihara, berkahilah aku pada apa yang telah Engkau karuniakan, dan lindungilah aku dari kejahatan yang telah Engkau tetapkan. Sesungguhnya Engkau menetapkan hukum dan tidak ada yang dapat menetapkan hukum atas-Mu. Sesungguhnya tidak akan hina orang yang Engkau lindungi dan tidak akan mulia orang yang Engkau musuhi. Maha Suci Engkau, wahai Tuhan kami, dan Maha Tinggi Engkau. Segala puji bagi-Mu atas apa yang Engkau tetapkan. Aku memohon ampun dan bertaubat kepada-Mu. Semoga Allah mencurahkan rahmat dan kesejahteraan atas Nabi Muhammad, keluarganya, dan sahabat-sahabatnya."
+        },
+        {
+          "urutan": 11,
+          "nama": "Sujud Kedua",
+          "arab": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+          "latin": "Subhāna rabbiyal a‘lā.",
+          "arti": "Mahasuci Tuhanku Yang Maha Tinggi."
+        },
+        {
+          "urutan": 12,
+          "nama": "Tasyahhud Akhir",
+          "arab": "اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ...",
+          "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt...",
+          "arti": "Segala kehormatan, keberkahan, dan kebaikan adalah milik Allah..."
+        },
+        {
+          "urutan": 13,
+          "nama": "Salam",
+          "arab": "اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللّٰهِ",
+          "latin": "As-salāmu ‘alaikum wa raḥmatullāh.",
+          "arti": "Semoga keselamatan dan rahmat Allah tercurah untuk kalian."
         }
       ]
     },
     {
       "id": 102,
       "sholat_id": 2,
-      "langkah": [
+      "nama_sholat": "Sholat Dzuhur",
+      "jumlah_rakaat": 4,
+      "tata_cara": [
         {
           "urutan": 1,
-          "judul": "Niat",
+          "nama": "Niat Sholat Dzuhur",
           "arab": "أُصَلِّي فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
           "latin": "Ushalli fardhazh-zhuhri arba‘a raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
           "arti": "Aku niat sholat fardhu Dzuhur empat rakaat menghadap kiblat karena Allah Ta’ala."
         },
         {
           "urutan": 2,
-          "judul": "Langkah-langkah",
-          "arti": "Lakukan empat rakaat seperti tata cara Subuh. Setelah rakaat kedua duduk tasyahhud awal, lalu rakaat keempat tasyahhud akhir dan salam."
+          "nama": "Takbiratul Ihram",
+          "arab": "اللّٰهُ أَكْبَرُ",
+          "latin": "Allāhu akbar.",
+          "arti": "Allah Maha Besar."
+        },
+        {
+          "urutan": 3,
+          "nama": "Doa Iftitah",
+          "arab": "اللّٰهُ أَكْبَرُ كَبِيرًا، وَالْحَمْدُ لِلّٰهِ كَثِيرًا، وَسُبْحَانَ اللّٰهِ بُكْرَةً وَأَصِيلًا، إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ، إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي لِلّٰهِ رَبِّ الْعَالَمِينَ، لَا شَرِيكَ لَهُ وَبِذَٰلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ.",
+          "latin": "Allāhu akbaru kabīrā, walḥamdu lillāhi katsīrā, wa subḥānallāhi bukratan wa ashīlā. Inni wajjahtu wajhiya lilladzī faṭaras-samāwāti wal-arḍa ḥanīfan musliman wa mā ana minal musyrikīn. Inna ṣalātī wa nusukī wa maḥyāya wa mamātī lillāhi rabbil-‘ālamīn. Lā syarīka lah, wa bidzālika umirtu wa anā minal-muslimīn.",
+          "arti": "Allah Maha Besar dengan sebesar-besarnya, segala puji bagi Allah sebanyak-banyaknya, Maha Suci Allah pagi dan petang. Sesungguhnya aku hadapkan wajahku kepada Allah yang menciptakan langit dan bumi, dengan tulus dan berserah diri, dan aku bukan termasuk orang-orang musyrik. Sesungguhnya shalatku, ibadahku, hidup dan matiku hanyalah untuk Allah, Tuhan semesta alam. Tiada sekutu bagi-Nya, dan dengan itu aku diperintahkan, dan aku termasuk orang-orang yang berserah diri."
+        },
+        {
+          "urutan": 4,
+          "nama": "Membaca Surah Al-Fatihah",
+          "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ. الْـحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ. الرَّحْمٰنِ الرَّحِيْمِ. مٰلِكِ يَوْمِ الدِّيْنِ. إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِيْنُ. اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ. صِرَاطَ الَّذِيْنَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ.",
+          "latin": "Bismillāhir-raḥmānir-raḥīm. Al-ḥamdu lillāhi rabbil-‘ālamīn. Ar-raḥmānir-raḥīm. Māliki yaumid-dīn. Iyyāka na‘budu wa iyyāka nasta‘īn. Ihdinaṣ-ṣirāṭal mustaqīm. Ṣirāṭallażīna an‘amta ‘alaihim gairil-maghdūbi ‘alaihim wa laḍ-ḍāllīn.",
+          "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Segala puji bagi Allah, Tuhan seluruh alam..."
+        },
+        {
+          "urutan": 5,
+          "nama": "Membaca Surah Pendek (contoh Al-Kautsar)",
+          "arab": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ ﴿١﴾ فَصَلِّ لِرَبِّكَ وَانْحَرْ ﴿٢﴾ إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ ﴿٣﴾",
+          "latin": "Innā a‘ṭainākal kautsar. Fa ṣalli lirabbika wanḥar. Inna syāni’aka huwal abtar.",
+          "arti": "Sesungguhnya Kami telah memberikan kepadamu nikmat yang banyak. Maka dirikanlah shalat karena Tuhanmu dan berkurbanlah. Sesungguhnya orang yang membencimu dialah yang terputus (dari rahmat Allah)."
+        },
+        {
+          "urutan": 6,
+          "nama": "Rukuk",
+          "arab": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "latin": "Subḥāna rabbiyal ‘aẓīm.",
+          "arti": "Mahasuci Tuhanku Yang Maha Agung."
+        },
+        {
+          "urutan": 7,
+          "nama": "I'tidal",
+          "arab": "سَمِعَ اللّٰهُ لِمَنْ حَمِدَهُ، رَبَّنَا وَلَكَ الْحَمْدُ",
+          "latin": "Sami‘allāhu liman ḥamidah, rabbana wa lakal ḥamd.",
+          "arti": "Allah mendengar orang yang memuji-Nya. Ya Tuhan kami, bagi-Mu segala pujian."
+        },
+        {
+          "urutan": 8,
+          "nama": "Sujud",
+          "arab": "سُبْحَانَ رَبِّيَ الأَعْلَى",
+          "latin": "Subḥāna rabbiyal a‘lā.",
+          "arti": "Mahasuci Tuhanku Yang Maha Tinggi."
+        },
+        {
+          "urutan": 9,
+          "nama": "Duduk di antara dua sujud",
+          "arab": "رَبِّ اغْفِرْ لِي، وَارْحَمْنِي، وَاجْبُرْنِي، وَارْفَعْنِي، وَاهْدِنِي، وَعَافِنِي، وَارْزُقْنِي",
+          "latin": "Rabbi ighfir lī, warḥamnī, wajburnī, warfa‘nī, wahdinī, wa‘āfinī, warzuqnī.",
+          "arti": "Ya Tuhanku, ampunilah aku, rahmatilah aku, cukupkanlah aku, angkatlah derajatku, tunjukilah aku, sehatkanlah aku, dan berilah aku rezeki."
+        },
+        {
+          "urutan": 10,
+          "nama": "Tasyahhud Awal (setelah rakaat kedua)",
+          "arab": "اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، اَلسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ، اَلسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللّٰهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللّٰهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللّٰهِ.",
+          "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt. As-salāmu ‘alaika ayyuhan-nabiyyu wa raḥmatullāhi wa barakātuh. As-salāmu ‘alainā wa ‘alā ‘ibādillāhiṣ-ṣāliḥīn. Asyhadu allā ilāha illallāh, wa asyhadu anna Muḥammadan rasūlullāh.",
+          "arti": "Segala kehormatan, keberkahan, dan kebaikan adalah milik Allah..."
+        },
+        {
+          "urutan": 11,
+          "nama": "Tasyahhud Akhir (setelah rakaat keempat)",
+          "arab": "اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ... اَللّٰهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ... اَللّٰهُمَّ بَارِكْ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ...",
+          "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt... Allāhumma ṣalli ‘alā Muḥammadin wa ‘alā āli Muḥammad... Allāhumma bārik ‘alā Muḥammadin wa ‘alā āli Muḥammad...",
+          "arti": "Segala kehormatan, keberkahan, dan kebaikan hanya milik Allah... Ya Allah limpahkanlah rahmat dan berkah kepada Nabi Muhammad dan keluarganya..."
+        },
+        {
+          "urutan": 12,
+          "nama": "Salam",
+          "arab": "اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللّٰهِ",
+          "latin": "As-salāmu ‘alaikum wa raḥmatullāh.",
+          "arti": "Semoga keselamatan dan rahmat Allah tercurah kepada kalian."
         }
       ]
     },
     {
       "id": 103,
       "sholat_id": 3,
-      "langkah": [
+      "nama_sholat": "Sholat Ashar",
+      "grup": "Sholat Fardhu",
+      "rakaat": 4,
+      "deskripsi": "Sholat Ashar dikerjakan sebanyak empat rakaat pada waktu setelah tergelincirnya matahari hingga menjelang terbenam.",
+      "tata_cara": [
         {
           "urutan": 1,
-          "judul": "Niat",
+          "nama": "Niat",
           "arab": "أُصَلِّي فَرْضَ الْعَصْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
-          "latin": "Ushalli fardhal ‘ashri arba‘a raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
-          "arti": "Aku niat sholat fardhu Ashar empat rakaat menghadap kiblat karena Allah Ta’ala."
+          "latin": "Ushalli fardhal 'ashri arba‘a raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
+          "arti": "Aku niat shalat fardhu Ashar empat rakaat menghadap kiblat karena Allah Ta‘ala."
         },
         {
           "urutan": 2,
-          "judul": "Langkah-langkah",
-          "arti": "Lakukan empat rakaat seperti Dzuhur: dua rakaat pertama baca surah, dua rakaat terakhir hanya Al-Fatihah, dan tasyahhud akhir di rakaat keempat."
+          "nama": "Takbiratul Ihram",
+          "arab": "اللّٰهُ أَكْبَرُ",
+          "latin": "Allāhu Akbar",
+          "arti": "Allah Maha Besar."
+        },
+        {
+          "urutan": 3,
+          "nama": "Doa Iftitah",
+          "arab": "اللّٰهُ أَكْبَرُ كَبِيرًا وَالْحَمْدُ لِلّٰهِ كَثِيرًا وَسُبْحَانَ اللّٰهِ بُكْرَةً وَأَصِيلًا، إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمٰوَاتِ وَالْأَرْضَ حَنِيفًا مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ، إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي لِلّٰهِ رَبِّ الْعَالَمِينَ، لَا شَرِيكَ لَهُ وَبِذٰلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ.",
+          "latin": "Allāhu akbaru kabīrā, walhamdu lillāhi katsīrā, wa subhānallāhi bukratan wa ashīlā. Inni wajjahtu wajhiya lilladzī fatharas-samāwāti wal-ardha hanīfan musliman wa mā anā minal musyrikīn. Inna shalātī wa nusukī wa mahyāya wa mamātī lillāhi rabbil ‘ālamīn, lā syarīka lah, wa bidzālika umirtu wa anā minal muslimīn.",
+          "arti": "Allah Maha Besar sebesar-besarnya. Segala puji bagi Allah sebanyak-banyaknya. Maha Suci Allah pagi dan petang. Sesungguhnya aku menghadapkan wajahku kepada Dzat yang menciptakan langit dan bumi dengan lurus dan berserah diri, dan aku bukan termasuk orang musyrik. Sesungguhnya shalatku, ibadahku, hidupku, dan matiku hanyalah untuk Allah, Tuhan seluruh alam. Tiada sekutu bagi-Nya, dan dengan itu aku diperintahkan dan aku termasuk orang Islam."
+        },
+        {
+          "urutan": 4,
+          "nama": "Al-Fatihah",
+          "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ، اَلْـحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ، الرَّحْمٰنِ الرَّحِيْمِ، مٰلِكِ يَوْمِ الدِّيْنِ، إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِيْنُ، اهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ، صِرَاطَ الَّذِيْنَ أَنْعَمْتَ عَلَيْهِمْ، غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ، آمِيْنَ.",
+          "latin": "Bismillāhir-raḥmānir-raḥīm. Al-ḥamdu lillāhi rabbil ‘ālamīn. Ar-raḥmānir-raḥīm. Māliki yaumid-dīn. Iyyāka na‘budu wa iyyāka nasta‘īn. Ihdinaṣ-ṣirāṭal-mustaqīm. Ṣirāṭallażīna an‘amta ‘alaihim ghairil maghḍūbi ‘alaihim wa laḍ-ḍāllīn. Āmīn.",
+          "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Segala puji bagi Allah, Tuhan semesta alam. Yang Maha Pengasih lagi Maha Penyayang. Yang menguasai hari pembalasan. Hanya kepada-Mu kami menyembah dan hanya kepada-Mu kami mohon pertolongan. Tunjukilah kami jalan yang lurus, yaitu jalan orang-orang yang telah Engkau beri nikmat, bukan jalan mereka yang dimurkai, dan bukan jalan mereka yang sesat. Amin."
+        },
+        {
+          "urutan": 5,
+          "nama": "Rukuk",
+          "arab": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "latin": "Subhāna rabbiyal ‘azhīm.",
+          "arti": "Maha Suci Tuhanku Yang Maha Agung."
+        },
+        {
+          "urutan": 6,
+          "nama": "I'tidal",
+          "arab": "سَمِعَ اللّٰهُ لِمَنْ حَمِدَهُ، رَبَّنَا وَلَكَ الْحَمْدُ",
+          "latin": "Sami‘allāhu liman ḥamidah, rabbana wa lakal ḥamd.",
+          "arti": "Allah mendengar orang yang memuji-Nya. Ya Tuhan kami, bagi-Mu segala puji."
+        },
+        {
+          "urutan": 7,
+          "nama": "Sujud",
+          "arab": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+          "latin": "Subhāna rabbiyal a‘lā.",
+          "arti": "Maha Suci Tuhanku Yang Maha Tinggi."
+        },
+        {
+          "urutan": 8,
+          "nama": "Duduk di antara dua sujud",
+          "arab": "رَبِّ اغْفِرْ لِي، وَارْحَمْنِي، وَاجْبُرْنِي، وَارْزُقْنِي، وَارْفَعْنِي، وَاهْدِنِي، وَعَافِنِي، وَاعْفُ عَنِّي",
+          "latin": "Rabbighfir lī, warḥamnī, wajburnī, warzuqnī, warfa‘nī, wahdinī, wa ‘āfinī, wa‘fu ‘annī.",
+          "arti": "Ya Tuhanku, ampunilah aku, kasihanilah aku, cukupilah aku, berilah aku rezeki, angkatlah derajatku, berilah aku petunjuk, sehatkan aku, dan maafkan aku."
+        },
+        {
+          "urutan": 9,
+          "nama": "Tasyahhud Akhir",
+          "arab": "اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، اَلسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ، اَلسَّلَامُ عَلَيْنَا وَعَلَىٰ عِبَادِ اللّٰهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللّٰهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، اَللّٰهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ. اَللّٰهُمَّ بَارِكْ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+          "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt. As-salāmu ‘alaika ayyuhan-nabiyyu wa raḥmatullāhi wa barakātuh. As-salāmu ‘alainā wa ‘alā ‘ibādillāhiṣ-ṣāliḥīn. Asyhadu allā ilāha illallāh, wa asyhadu anna Muḥammadan ‘abduhu wa rasūluh. Allāhumma ṣalli ‘alā Muḥammad wa ‘alā āli Muḥammad, kamā ṣallaita ‘alā Ibrāhīm wa ‘alā āli Ibrāhīm, innaka ḥamīdun majīd. Allāhumma bārik ‘alā Muḥammad wa ‘alā āli Muḥammad, kamā bārakta ‘alā Ibrāhīm wa ‘alā āli Ibrāhīm, innaka ḥamīdun majīd.",
+          "arti": "Segala kehormatan, keberkahan, dan kebaikan hanyalah milik Allah. Semoga keselamatan, rahmat, dan berkah Allah tercurah atasmu, wahai Nabi. Semoga keselamatan tercurah atas kami dan atas hamba-hamba Allah yang saleh. Aku bersaksi bahwa tiada Tuhan selain Allah, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya. Ya Allah, limpahkanlah rahmat kepada Muhammad dan keluarganya sebagaimana Engkau telah memberi rahmat kepada Ibrahim dan keluarganya. Sesungguhnya Engkau Maha Terpuji lagi Maha Mulia. Ya Allah, berkatilah Muhammad dan keluarganya sebagaimana Engkau telah memberkati Ibrahim dan keluarganya. Sesungguhnya Engkau Maha Terpuji lagi Maha Mulia."
+        },
+        {
+          "urutan": 10,
+          "nama": "Salam",
+          "arab": "اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللّٰهِ",
+          "latin": "As-salāmu ‘alaikum wa raḥmatullāh.",
+          "arti": "Semoga keselamatan dan rahmat Allah tercurah atas kalian."
         }
       ]
     },
     {
       "id": 104,
       "sholat_id": 4,
-      "langkah": [
+      "nama_sholat": "Sholat Maghrib",
+      "grup": "Sholat Fardhu",
+      "rakaat": 3,
+      "deskripsi": "Sholat Maghrib dikerjakan sebanyak tiga rakaat, waktunya dimulai setelah matahari terbenam hingga masuk waktu Isya.",
+      "tata_cara": [
         {
           "urutan": 1,
-          "judul": "Niat",
+          "nama": "Niat",
           "arab": "أُصَلِّي فَرْضَ الْمَغْرِبِ ثَلَاثَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
-          "latin": "Ushalli fardhal maghribi thalātha raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
-          "arti": "Aku niat sholat fardhu Maghrib tiga rakaat menghadap kiblat karena Allah Ta’ala."
+          "latin": "Ushalli fardhal maghribi tsalātsa raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
+          "arti": "Aku niat shalat fardhu Maghrib tiga rakaat menghadap kiblat karena Allah Ta‘ala."
         },
         {
           "urutan": 2,
-          "judul": "Langkah-langkah",
-          "arti": "Rakaat 1–2 baca Al-Fatihah dan surah pendek, duduk tasyahhud awal setelah rakaat kedua, rakaat ketiga hanya Al-Fatihah lalu tasyahhud akhir dan salam."
+          "nama": "Takbiratul Ihram",
+          "arab": "اللّٰهُ أَكْبَرُ",
+          "latin": "Allāhu Akbar",
+          "arti": "Allah Maha Besar."
+        },
+        {
+          "urutan": 3,
+          "nama": "Doa Iftitah",
+          "arab": "اللّٰهُ أَكْبَرُ كَبِيرًا وَالْحَمْدُ لِلّٰهِ كَثِيرًا وَسُبْحَانَ اللّٰهِ بُكْرَةً وَأَصِيلًا، إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمٰوَاتِ وَالْأَرْضَ حَنِيفًا مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ، إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي لِلّٰهِ رَبِّ الْعَالَمِينَ، لَا شَرِيكَ لَهُ وَبِذٰلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ.",
+          "latin": "Allāhu akbaru kabīrā, walhamdu lillāhi katsīrā, wa subhānallāhi bukratan wa ashīlā. Inni wajjahtu wajhiya lilladzī fatharas-samāwāti wal-ardha hanīfan musliman wa mā anā minal musyrikīn. Inna shalātī wa nusukī wa mahyāya wa mamātī lillāhi rabbil ‘ālamīn, lā syarīka lah, wa bidzālika umirtu wa anā minal muslimīn.",
+          "arti": "Allah Maha Besar sebesar-besarnya. Segala puji bagi Allah sebanyak-banyaknya. Maha Suci Allah pagi dan petang. Sesungguhnya aku menghadapkan wajahku kepada Dzat yang menciptakan langit dan bumi dengan lurus dan berserah diri, dan aku bukan termasuk orang musyrik. Sesungguhnya shalatku, ibadahku, hidupku, dan matiku hanyalah untuk Allah, Tuhan seluruh alam. Tiada sekutu bagi-Nya, dan dengan itu aku diperintahkan dan aku termasuk orang Islam."
+        },
+        {
+          "urutan": 4,
+          "nama": "Al-Fatihah",
+          "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ، اَلْـحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ، الرَّحْمٰنِ الرَّحِيْمِ، مٰلِكِ يَوْمِ الدِّيْنِ، إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِيْنُ، اهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ، صِرَاطَ الَّذِيْنَ أَنْعَمْتَ عَلَيْهِمْ، غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ، آمِيْنَ.",
+          "latin": "Bismillāhir-raḥmānir-raḥīm. Al-ḥamdu lillāhi rabbil ‘ālamīn. Ar-raḥmānir-raḥīm. Māliki yaumid-dīn. Iyyāka na‘budu wa iyyāka nasta‘īn. Ihdinaṣ-ṣirāṭal-mustaqīm. Ṣirāṭallażīna an‘amta ‘alaihim ghairil maghḍūbi ‘alaihim wa laḍ-ḍāllīn. Āmīn.",
+          "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Segala puji bagi Allah, Tuhan semesta alam. Yang Maha Pengasih lagi Maha Penyayang. Yang menguasai hari pembalasan. Hanya kepada-Mu kami menyembah dan hanya kepada-Mu kami mohon pertolongan. Tunjukilah kami jalan yang lurus, yaitu jalan orang-orang yang telah Engkau beri nikmat, bukan jalan mereka yang dimurkai, dan bukan jalan mereka yang sesat. Amin."
+        },
+        {
+          "urutan": 5,
+          "nama": "Rukuk",
+          "arab": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+          "latin": "Subhāna rabbiyal ‘azhīm.",
+          "arti": "Maha Suci Tuhanku Yang Maha Agung."
+        },
+        {
+          "urutan": 6,
+          "nama": "I'tidal",
+          "arab": "سَمِعَ اللّٰهُ لِمَنْ حَمِدَهُ، رَبَّنَا وَلَكَ الْحَمْدُ",
+          "latin": "Sami‘allāhu liman ḥamidah, rabbana wa lakal ḥamd.",
+          "arti": "Allah mendengar orang yang memuji-Nya. Ya Tuhan kami, bagi-Mu segala puji."
+        },
+        {
+          "urutan": 7,
+          "nama": "Sujud",
+          "arab": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+          "latin": "Subhāna rabbiyal a‘lā.",
+          "arti": "Maha Suci Tuhanku Yang Maha Tinggi."
+        },
+        {
+          "urutan": 8,
+          "nama": "Duduk di antara dua sujud",
+          "arab": "رَبِّ اغْفِرْ لِي، وَارْحَمْنِي، وَاجْبُرْنِي، وَارْزُقْنِي، وَارْفَعْنِي، وَاهْدِنِي، وَعَافِنِي، وَاعْفُ عَنِّي",
+          "latin": "Rabbighfir lī, warḥamnī, wajburnī, warzuqnī, warfa‘nī, wahdinī, wa ‘āfinī, wa‘fu ‘annī.",
+          "arti": "Ya Tuhanku, ampunilah aku, kasihanilah aku, cukupilah aku, berilah aku rezeki, angkatlah derajatku, berilah aku petunjuk, sehatkan aku, dan maafkan aku."
+        },
+        {
+          "urutan": 9,
+          "nama": "Tasyahhud Awal (setelah rakaat kedua)",
+          "arab": "اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، اَلسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ، اَلسَّلَامُ عَلَيْنَا وَعَلَىٰ عِبَادِ اللّٰهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللّٰهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ.",
+          "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt. As-salāmu ‘alaika ayyuhan-nabiyyu wa raḥmatullāhi wa barakātuh. As-salāmu ‘alainā wa ‘alā ‘ibādillāhiṣ-ṣāliḥīn. Asyhadu allā ilāha illallāh, wa asyhadu anna Muḥammadan ‘abduhu wa rasūluh.",
+          "arti": "Segala kehormatan, keberkahan, dan kebaikan hanyalah milik Allah. Semoga keselamatan, rahmat, dan berkah Allah tercurah atasmu, wahai Nabi. Semoga keselamatan tercurah atas kami dan atas hamba-hamba Allah yang saleh. Aku bersaksi bahwa tiada Tuhan selain Allah, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya."
+        },
+        {
+          "urutan": 10,
+          "nama": "Tasyahhud Akhir (rakaat ketiga)",
+          "arab": "اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ ... (hingga) ... إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+          "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt ... (hingga) ... innaka ḥamīdun majīd.",
+          "arti": "Bacaan tasyahhud akhir sama seperti sholat sebelumnya, hanya dilanjut dengan shalawat kepada Nabi Muhammad dan keluarga beliau."
+        },
+        {
+          "urutan": 11,
+          "nama": "Salam",
+          "arab": "اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللّٰهِ",
+          "latin": "As-salāmu ‘alaikum wa raḥmatullāh.",
+          "arti": "Semoga keselamatan dan rahmat Allah tercurah atas kalian."
         }
       ]
     },
     {
       "id": 105,
       "sholat_id": 5,
-      "langkah": [
+      "nama_sholat": "Shalat Isya",
+      "grup": "Isya",
+      "jumlah_rakaat": 4,
+      "bacaan": [
         {
-          "urutan": 1,
-          "judul": "Niat",
+          "urutan": "Niat",
           "arab": "أُصَلِّي فَرْضَ الْعِشَاءِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلّٰهِ تَعَالَى",
-          "latin": "Ushalli fardhal ‘ishā’i arba‘a raka‘ātin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
-          "arti": "Aku niat sholat fardhu Isya empat rakaat menghadap kiblat karena Allah Ta’ala."
+          "latin": "Ushalli fardhal ‘isyaa’i arba‘a raka‘aatin mustaqbilal qiblati adā’an lillāhi ta‘ālā.",
+          "arti": "Aku niat shalat fardhu Isya empat rakaat menghadap kiblat karena Allah Ta‘ala."
         },
         {
-          "urutan": 2,
-          "judul": "Langkah-langkah",
-          "arti": "Empat rakaat seperti sholat Dzuhur: dua rakaat pertama baca surah, dua terakhir hanya Al-Fatihah. Tasyahhud awal di rakaat kedua dan akhir di rakaat keempat, lalu salam."
+          "urutan": "Takbiratul Ihram",
+          "arab": "اللّٰهُ أَكْبَرُ",
+          "latin": "Allāhu akbar.",
+          "arti": "Allah Maha Besar."
+        },
+        {
+          "urutan": "Doa Iftitah",
+          "arab": "اللّٰهُمَّ بَاعِدْ بَيْنِيْ وَبَيْنَ خَطَايَايَ، كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللّٰهُمَّ نَقِّنِيْ مِنْ خَطَايَايَ كَمَا يُنَقَّى الثَّوْبُ الْأَبْيَضُ مِنَ الدَّنَسِ، اللّٰهُمَّ اغْسِلْنِيْ مِنْ خَطَايَايَ بِالثَّلْجِ وَالْمَاءِ وَالْبَرَدِ.",
+          "latin": "Allāhumma bā‘id bainī wa baina khaṭāyāya kamā bā‘adta bainal masyriqi wal maghrib. Allāhumma naqqinī min khaṭāyāya kamā yunaqqats tsaubul abyadhu minad danas. Allāhumma ghsilnī min khaṭāyāya bits-tsalji wal mā’i wal barad.",
+          "arti": "Ya Allah, jauhkanlah antara aku dan kesalahanku sebagaimana Engkau jauhkan antara timur dan barat. Ya Allah, bersihkanlah aku dari kesalahanku sebagaimana kain putih dibersihkan dari kotoran. Ya Allah, cucilah kesalahanku dengan air, salju, dan embun."
+        },
+        {
+          "urutan": "Al-Fatihah",
+          "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ. اَلْـحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ. الرَّحْمٰنِ الرَّحِيْمِ. مَالِكِ يَوْمِ الدِّيْنِ. إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِيْنُ. اهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ. صِرَاطَ الَّذِيْنَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ. آمِيْنَ.",
+          "latin": "Bismillāhir-raḥmānir-raḥīm. Alḥamdu lillāhi rabbil ‘ālamīn. Ar-raḥmānir-raḥīm. Māliki yaumid-dīn. Iyyāka na‘budu wa iyyāka nasta‘īn. Ihdinaṣ-ṣirāṭal-mustaqīm. Ṣirāṭallażīna an‘amta ‘alaihim ghairil maghḍūbi ‘alaihim walad-dhāllīn. Āmīn.",
+          "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Segala puji bagi Allah, Tuhan semesta alam. Yang Maha Pengasih, Maha Penyayang. Pemilik hari pembalasan. Hanya kepada-Mu kami menyembah dan hanya kepada-Mu kami memohon pertolongan. Tunjukkanlah kami jalan yang lurus, yaitu jalan orang-orang yang telah Engkau beri nikmat, bukan jalan mereka yang dimurkai dan bukan jalan mereka yang sesat. Amin."
+        },
+        {
+          "urutan": "Surah Pendek",
+          "contoh": "Al-Kautsar",
+          "arab": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَۙ فَصَلِّ لِرَبِّكَ وَانْحَرْۗ إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+          "latin": "Innâ a‘thainâkal kautsar. Fa shalli li rabbika wanhar. Inna syāni'aka huwal abtar.",
+          "arti": "Sesungguhnya Kami telah memberikan kepadamu nikmat yang banyak. Maka dirikanlah shalat karena Tuhanmu dan berkurbanlah. Sesungguhnya orang-orang yang membencimu dialah yang terputus."
+        },
+        {
+          "urutan": "Rukuk",
+          "arab": "سُبْحَانَ رَبِّيَ الْعَظِيْمِ",
+          "latin": "Subhāna rabbiyal ‘azhīm.",
+          "arti": "Maha Suci Tuhanku Yang Maha Agung."
+        },
+        {
+          "urutan": "I'tidal",
+          "arab": "سَمِعَ اللّٰهُ لِمَنْ حَمِدَهُ",
+          "latin": "Sami‘allāhu liman ḥamidah.",
+          "arti": "Allah mendengar orang yang memuji-Nya."
+        },
+        {
+          "urutan": "Sujud",
+          "arab": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+          "latin": "Subhāna rabbiyal a‘lā.",
+          "arti": "Maha Suci Tuhanku Yang Maha Tinggi."
+        },
+        {
+          "urutan": "Duduk di Antara Dua Sujud",
+          "arab": "رَبِّ اغْفِرْ لِيْ وَارْحَمْنِيْ وَاجْبُرْنِيْ وَارْفَعْنِيْ وَارْزُقْنِيْ وَاهْدِنِيْ وَعَافِنِيْ وَاعْفُ عَنِّيْ",
+          "latin": "Rabbi-ghfir lī, warḥamnī, wajburnī, warfa‘nī, warzuqnī, wahdinī, wa ‘āfinī, wa‘fu ‘annī.",
+          "arti": "Ya Tuhanku, ampunilah aku, rahmatilah aku, cukupkanlah aku, angkatlah derajatku, berilah aku rezeki, berilah aku petunjuk, sehatkanlah aku, dan maafkanlah aku."
+        },
+        {
+          "urutan": "Tasyahhud Akhir",
+          "arab": "التَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَىٰ عِبَادِ اللّٰهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللّٰهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ.",
+          "latin": "At-taḥiyyātu lillāhi waṣ-ṣalawātu waṭ-ṭayyibāt. As-salāmu ‘alaika ayyuhan-nabiyyu wa raḥmatullāhi wa barakātuh. As-salāmu ‘alainā wa ‘alā ‘ibādillāhiṣ-ṣāliḥīn. Asyhadu allā ilāha illallāh wa asyhadu anna Muḥammadan ‘abduhu wa rasūluh.",
+          "arti": "Segala kehormatan, keberkahan, shalawat, dan kebaikan bagi Allah. Salam sejahtera atasmu wahai Nabi beserta rahmat dan berkah Allah. Salam sejahtera atas kami dan atas hamba-hamba Allah yang saleh. Aku bersaksi bahwa tiada Tuhan selain Allah dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya."
+        },
+        {
+          "urutan": "Salam",
+          "arab": "اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللّٰهِ",
+          "latin": "As-salāmu ‘alaikum wa raḥmatullāh.",
+          "arti": "Semoga keselamatan dan rahmat Allah tercurah atasmu."
         }
       ]
     }

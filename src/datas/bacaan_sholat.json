@@ -1,0 +1,261 @@
+{
+  "list_bacaan": [
+    {
+      "id": 1,
+      "title": "Kumpulan Niat Sholat"
+    },
+    {
+      "id": 2,
+      "title": "Doa Iftitah"
+    },
+    {
+      "id": 3,
+      "title": "Al-Fatihah"
+    },
+    {
+      "id": 4,
+      "title": "Surat Pendek"
+    },
+    {
+      "id": 5,
+      "title": "Ruku'"
+    },
+    {
+      "id": 6,
+      "title": "I'tidal"
+    },
+    {
+      "id": 7,
+      "title": "Sujud"
+    },
+    {
+      "id": 8,
+      "title": "Duduk di antara dua sujud"
+    },
+    {
+      "id": 9,
+      "title": "Tasyahud Awal"
+    },
+    {
+      "id": 10,
+      "title": "Tasyahud Akhir"
+    },
+    {
+      "id": 11,
+      "title": "Salam"
+    }
+  ],
+  "list_bacaan_sholat": [
+    {
+      "id": 101,
+      "list_bacaan_id": 1,
+      "title": "Kumpulan Niat Sholat",
+      "bacaan": [
+        {
+          "title": "Niat Sholat Subuh",
+          "teks_arab": "أصلي فرض الصبح ركعتين مستقبل القبلة أداء/مأموما/إماما لله تعالى",
+          "teks_latin": "Usholli fardhol subhi rok'ataini mustaqbilal qiblati adaa an (sholat sendiri)/Ma'muuman (menjadi ma'mum)/Imaaman (menjadi imam) Lillaahi Ta'aalaa",
+          "artinya": "Saya berniat sholat fardu subuh dua rakaat menghadap kiblat karena Allah Ta'ala/Ma'mum karena Allah Ta'ala/Imam karena Allah Ta'ala."
+        },
+        {
+          "title": "Niat Sholat Dzuhur",
+          "teks_arab": "أصلي فرض الظهر أربع ركعات مستقبل القبلة أداء/مأموما/إماما لله تعالى",
+          "teks_latin": "Usholli fardhol zuhri arba'a roka'aati mustaqbilal qiblati adaa an (sholat sendiri)/Ma'muuman (menjadi ma'mum)/Imaaman (menjadi imam) Lillaahi Ta'aalaa.",
+          "artinya": "Saya berniat sholat fardu zuhur empat rakaat menghadap kiblat karena Allah Ta'ala/Ma'mum karena Allah Ta'ala/Imam karena Allah Ta'ala."
+        },
+        {
+          "title": "Niat Sholat Ashar",
+          "teks_arab": "أصلي فرض العصر أربع ركعات مستقبل القبلة أداء/مأموما/إماما لله تعالى",
+          "teks_latin": "Usholli fardhol ashri arba'a roka'aati mustaqbilal qiblati adaa an (sholat sendiri)/Ma'muuman (menjadi ma'mum)/Imaaman (menjadi imam) Lillaahi Ta'ala.",
+          "artinya": "Saya berniat sholat fardu asar empat rakaat menghadap kiblat karena Allah Ta'ala/Ma'mum karena Allah Ta'ala/Imam karena Allah Ta'ala."
+        },
+        {
+          "title": "Niat Sholat Maghrib",
+          "teks_arab": "أصلي فرض المغرب ثلاث ركعات مستقبل القبلة أداء/مأموما/إماما لله تعالى",
+          "teks_latin": "Usholli fardhol magribi tsalasa rok'aati mustaqbilal qiblati adaa an (sholat sendiri)/Ma'muuman (menjadi ma'mum)/Imaaman (menjadi imam) Lillaahi Ta'ala.",
+          "artinya": "Saya berniat sholat fardu magrib tiga rakaat menghadap kiblat karena Allah Ta'ala/Ma'mum karena Allah Ta'ala/Imam karena Allah Ta'ala."
+        },
+        {
+          "title": "Niat Sholat Isya'",
+          "teks_arab": "أصلي فرض العشاء أربع ركعات مستقبل القبلة أداء/مأموما/إماما لله تعالى",
+          "teks_latin": "Usholli fardhol 'Isya i arba'a roka'aati mustaqbilal qiblati adaa an (sholat sendiri)/Ma'muuman (menjadi ma'mum)/Imaaman (menjadi imam) Lillaahi Ta'aalaa.",
+          "artinya": "Saya berniat sholat fardu isya empat rakaat menghadap kiblat karena Allah Ta'ala/Ma'mum karena Allah Ta'ala/Imam karena Allah Ta'ala"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "list_bacaan_id": 2,
+      "title": "Doa Iftitah",
+      "bacaan": {
+        "title": "Doa Iftitah",
+        "teks_arab": "اللهُ أَكْبَرُ كَبِيْراً وَالْحَمْدُ لِلَّهِ كَثِيْراً وَسُبْحَانَ اللهِ بُكْرَةً وَأَصِيْلًا  . اِنِّى وَجَّهْتُ وَجْهِيَ لِلَّذِيْ فَطَرَالسَّمَاوَاتِ وَالْااَرْضَ حَنِيْفًا مُسْلِمًا وَمَا اَنَا مِنَ الْمُشْرِكِيْنَ . اِنَّ صَلَاتِيْ وَنُسُكِيْ وَمَحْيَايَ وَمَمَاتِيْ لِلهِ رَبِّ الْعَا لَمِيْنَ . لاَ شَرِيْكَ لَهُ وَبِذَ لِكَ اُمِرْتُ وَاَنَ مِنَ الْمُسْلِمِيْنَ",
+        "teks_latin": "Allaahu akbar Kabiroo Walhamdulillaahi Katsiiraa, Wa Subhaanallaahi Bukratan Wa’ashiilaa, Innii Wajjahtu Wajhiya Lilladzii Fatharas Samaawaati Wal Ardha Haniifan Musliman Wamaa Anaa Minal Musyrikiin. Inna Shalaatii Wa Nusukii Wa Mahyaaya Wa Mamaatii Lillaahi Rabbil ‘Aalamiina. Laa Syariikalahu Wa Bidzaalika Umirtu Wa Ana Minal Muslimiin.",
+        "artinya": "Allah maha besar, maha sempurna kebesaran-Nya. Segala puji bagi Allah, pujian yang sebanyak-banyaknya. Dan maha suci Allah sepanjang pagi dan petang. Kuhadapkan wajahku kepada zat yang telah menciptakan langit dan bumi dengan penuh ketulusan dan kepasrahan dan aku bukanlah termasuk orang-orang yang musyrik. Sesungguhnya sholatku, ibadahku, hidupku dan matiku semuanya untuk Allah, penguasa alam semesta. Tidak ada sekutu bagi-Nya dan dengan demikianlah aku diperintahkan dan aku termasuk orang-orang yang muslim."
+      }
+    },
+    {
+      "id": 103,
+      "list_bacaan_id": 3,
+      "title": "Al-Fatihah",
+      "bacaan": [
+        {
+          "title": "Ayat 1",
+          "teks_arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+          "teks_latin": "Bismillāhir-raḥmānir-raḥīm",
+          "artinya": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+        },
+        {
+          "title": "Ayat 2",
+          "teks_arab": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ",
+          "teks_latin": "Al-ḥamdu lillāhi rabbil-‘ālamīn",
+          "artinya": "Segala puji bagi Allah, Tuhan seluruh alam."
+        },
+        {
+          "title": "Ayat 3",
+          "teks_arab": "الرَّحْمٰنِ الرَّحِيْمِۙ",
+          "teks_latin": "Ar-raḥmānir-raḥīm",
+          "artinya": "Yang Maha Pengasih, Maha Penyayang."
+        },
+        {
+          "title": "Ayat 4",
+          "teks_arab": "مٰلِكِ يَوْمِ الدِّيْنِۗ",
+          "teks_latin": "Māliki yaumid-dīn",
+          "artinya": "Pemilik hari pembalasan."
+        },
+        {
+          "title": "Ayat 5",
+          "teks_arab": "اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُۗ",
+          "teks_latin": "Iyyāka na‘budu wa iyyāka nasta‘īn",
+          "artinya": "Hanya kepada-Mu kami menyembah dan hanya kepada-Mu kami memohon pertolongan."
+        },
+        {
+          "title": "Ayat 6",
+          "teks_arab": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ ۙ",
+          "teks_latin": "Ihdinaṣ-ṣirāṭal-mustaqīm",
+          "artinya": "Tunjukilah kami jalan yang lurus,"
+        },
+        {
+          "title": "Ayat 7",
+          "teks_arab": "صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ ەۙ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ ࣖ",
+          "teks_latin": "Ṣirāṭallażīna an‘amta ‘alaihim gairil-magḍụbi ‘alaihim wa laḍ-ḍāllīn",
+          "artinya": "(yaitu) jalan orang-orang yang telah Engkau beri nikmat, bukan (jalan) mereka yang dimurkai dan bukan pula (jalan) mereka yang sesat."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "list_bacaan_id": 4,
+      "title": "Bacaan Surah Pendek",
+      "bacaan": [
+        {
+          "title": "Surah Al-Ikhlas",
+          "teks_arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+          "teks_latin": "Bismillāhir-raḥmānir-raḥīm",
+          "artinya": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang."
+        },
+        {
+          "title": "Surah Al-Ikhlas",
+          "teks_arab": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+          "teks_latin": "Qul huwallāhu aḥad",
+          "artinya": "Katakanlah (Muhammad), Dialah Allah, Yang Maha Esa."
+        },
+        {
+          "title": "Surah Al-Ikhlas",
+          "teks_arab": "اللَّهُ الصَّمَدُ",
+          "teks_latin": "Allāhuṣ-ṣamad",
+          "artinya": "Allah tempat meminta segala sesuatu."
+        },
+        {
+          "title": "Surah Al-Ikhlas",
+          "teks_arab": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+          "teks_latin": "Lam yalid wa lam yūlad",
+          "artinya": "Dia tidak beranak dan tidak pula diperanakkan."
+        },
+        {
+          "title": "Surah Al-Ikhlas",
+          "teks_arab": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+          "teks_latin": "Wa lam yakul lahū kufuwan aḥad",
+          "artinya": "Dan tidak ada sesuatu pun yang setara dengan Dia."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "list_bacaan_id": 5,
+      "title": "Bacaan Ruku",
+      "bacaan": {
+        "title": "Bacaan Ruku",
+        "teks_arab": "3x سُبْحَانَ رَبِّىَ الْعَظِيْمِ وَبِحَمْدِهِ",
+        "teks_latin": "Subhana rabbiyal 'adhimi wa bihamdihi. 3x",
+        "artinya": "Maha Suci Rabbku yang maha Agung dan maha terpuji."
+      }
+    },
+    {
+      "id": 106,
+      "list_bacaan_id": 6,
+      "title": "Bacaan I'tidal",
+      "bacaan": {
+        "title": "Bacaan I'tidal",
+        "teks_arab": "رَبَّنَا لَكَ الْحَمْدُ مِلْءَ السَّمَوَاتِ وَمِلْءَ الْأَرْضِ وَمِلْءَ مَا شِئْتَ مِنْ شَيْءٍ بَعْدُ",
+        "teks_latin": "Rabbanaaa lakal hamdu mil-ussamaawaati wa mil-ul-ardhi wa mil-u maa syik-ta min syai-im ba’du.",
+        "artinya": "Ya Allah Tuhan Kami, Bagi-Mu lah segala puji, sepenuh langit dan bumi, dan sepenuh barang yang Kau kehendaki sesudah itu."
+      }
+    },
+    {
+      "id": 107,
+      "list_bacaan_id": 7,
+      "title": "Bacaan Sujud",
+      "bacaan": {
+        "title": "Bacaan Sujud",
+        "teks_arab": "3x سُبْحَانَ رَبِّىَ الأَعْلَى وَبِحَمْدِهِ",
+        "teks_latin": "Subhana rabbiyal a’laa wa bi hamdih.3x",
+        "artinya": "Mahasuci Rabbku Yang Maha tinggi dan pujian untuk-Nya (HR. Abu Daud)"
+      }
+    },
+    {
+      "id": 108,
+      "list_bacaan_id": 8,
+      "title": "Duduk di antara dua sujud",
+      "bacaan": {
+        "title": "Duduk di antara dua sujud",
+        "teks_arab": "بِّ اغْفِرْلِىْ وَارْحَمْنِىْ وَاجْبُرْنِىْ وَارْفَعْنِىْ وَازُقْنِىْ وَاهْدِنِىٌ وَعَا فِنِىْ وَاعْفُ عَنِّىْ",
+        "teks_latin": "Rabighfirlii, Warhamnii, Wajburnii, Warfa’ni, Warzuqnii, Wahdini, Wa’aafinii, Wa’fuannii",
+        "artinya": " Ya Allah, ampunilah dosaku, rahmatilah aku, perbaikilah aku, berikanlah aku rezeki dan angkatlah derajatku."
+      }
+    },
+    {
+      "id": 109,
+      "list_bacaan_id": 9,
+      "title": "Tasyahud Awal",
+      "bacaan": {
+        "title": "Tasyahud Awal",
+        "teks_arab": "التَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ لِلَّهِ السَّلَامُ عَلَيْك أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ, أَشْهَدُ أَنْ لَا إلَهَ إلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ, اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ ،",
+        "teks_latin": "Attahiyyaatul mubaarakaatush shalawaatuth thoyyibaatulillaah. Assalaamu'alaika ayyuhan nabiyyu warahmatullaahi wabarakaatuh, Assalaamu'alaina wa'alaa ibaadillaahishaalihiin. Asyhaduallaa ilaaha illallaah, wa asyhadu anna Muhammad Rasuulullaah. Allahumma shalli 'alaa sayyidinaa muhammad.",
+        "artinya": "Segala kehormatan, dan keberkahan, kebahagiaan dan kebaikan itu punya Allah. Keselamatan atas Nabi Muhammad, juga rahmat dan berkahnya. Keselamatan dicurahkan kepada kami dan atas seluruh hamba Allah yang sholeh. Aku bersaksi tidak ada sesembahan yang berhak disembah kecuali Allah. Dan aku bersaksi bahwa Nabi Muhammad adalah utusan Allah. Ya Allah, limpahkanlah rahmat kepada Nabi Muhammad."
+      }
+    },
+    {
+      "id": 110,
+      "list_bacaan_id": 10,
+      "title": "Tasyahud Akhir",
+      "bacaan": {
+        "title": "Tasyahud Awal",
+        "teks_arab": "التَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ ِللهِ ، السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللهِ وَبَرَكاَتُهُ السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللهِ الصَّالِحِيْنَ . أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ الله وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُوْلُ الله. اَلَّلهُمَّ صَلِّ عَلَي سَيِّدِنَا مُحَمّدْ وعلى آلِ  عَلَي سَيِّدِنَا مُحَمَّد كَمَا صَلَّبْتَ عَلَى إِبْرَاهِيْمَ وَعَلَى آلِ إِبْرَاهِيْمَ وَبَارِكْ عَلعَلَي سَيِّدِنَا مُحَمَّدٍ وَعَلَى عَلَي سَيِّدِنَا آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيْمَ وَعَلَى آلِ إِبْرَاهِيْمَ فِيْ الْعَالَمِيْنَ إِنَّكَ حَمِيْدٌ مَجِيْد. اَلْلَّهُمَّ إِنِّيْ أَعُوْذُبِكَ مِنْ عَذَابِ جَهَنَّمَ وَمِنْ عَذَابِ القَبْرِ وَمِنْ فِتْنَةِ المَحْيَا وَالمَمَاتِ وَمِنْ شَرِّ فِتْنَةِ المَسِيْحِ الدَجَّالِ.",
+        "teks_latin": "Attahiyyaatul mubaarakaatush shalawaatuth thayyibatul lillaah, Assalaamu’alaika ayyuhan nabiyyu warahmatullaahi wabarakaatuh, Assalaamu’alainaa wa’alaa ‘ibaadillaahish shaalihiin. Asyhadu allaa ilaaha illallaah, Wa Asyhadu anna Muhammadar rasuulullaah. Allahhumma shalli ‘alaa Muhammad wa ‘alaa aali Muhammad, kamaa shallaita ‘alaa Ibraahim, wa ‘alaa aali Ibraahim. Wabaarik ‘alaa Muhammad, wa ‘alaa aali Muhammad, kamaa baarakta ‘alaa Ibraahim, wa ‘alaa aali Ibraahim. Fil ‘aalamiina innaka hamiidum majiid. Allaahumma innii a’uudzubika min ‘adzaabi jahannama wamin ‘adzaabil qabri wamin fitnatil mahyaa wamamaati wamin fitnatil masiihid dajjaal.",
+        "artinya": "Segala kehormatan, keberkahan, kebahagiaan dan kebaikan bagi Allah, salam, rahmat, dan berkahNya kupanjatkan kepadamu wahai Nabi (Muhammad). Salam keselamatan semoga tetap untuk kami seluruh hamba yang saleh-saleh. Aku bersaksi bahwa tiada Tuhan melainkan Allah. dan aku bersaksi bahwa Nabi Muhammad adalah utusan Allah. Ya Allah! Limpahkanlah rahmat kepada Nabi Muhammad. Sebagaimana pernah Engkau beri rahmat kepada Nabi Ibrahim dan keluarganya. Dan limpahkanlah berkah atas Nabi Muhammad beserta para keluarganya. Sebagaimana Engkau memberi berkah kepada Nabi Ibrahim dan keluarganya. Di seluruh alam semesta, Engkaulah yang terpuji, dan Maha Mulia. Ya Allah, aku berlindung kepada-Mu dari siksa jahanam dan siksa kubur serta dari fitnah kehidupan dan kematian dan dari kejahatan fitnahnya dajjal."
+      }
+    },
+    {
+      "id": 111,
+      "list_bacaan_id": 11,
+      "title": "Salam",
+      "bacaan": {
+        "title": "Salam",
+        "teks_arab": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ",
+        "teks_latin": "Assalaamu alaikum wa rahmatullah",
+        "artinya": "Semoga keselamatan dan rahmat Allah dilimpahkan kepadamu."
+      }
+    }
+  ]
+}
