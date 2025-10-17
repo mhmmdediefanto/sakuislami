@@ -10,9 +10,20 @@ const fetchKota = async () => {
   return data.data;
 };
 
+export const metadata: Metadata = generateSeoMetadata({
+  title: `Sholat - Harian | ${SITE_NAME}`,
+  description:
+    "Kumpulan jadwal sholat harian dalam Islam lengkap dengan teks Arab, transliterasi, dan terjemahan bahasa Indonesia",
+  url: SITE_URL,
+});
+
 import HeroSection from "./components/HeroSection";
 import CardService from "./components/CardService";
 import PageCleint from "./PageCleint";
+import Link from "next/link";
+import { Metadata } from "next";
+import { generateSeoMetadata } from "@/lib/seo";
+import { SITE_NAME, SITE_URL } from "@/constants/seo";
 
 const page = async () => {
   const kotas = await fetchKota();
@@ -50,18 +61,27 @@ const page = async () => {
           <li>Sholat Jenazah, Gerhana (Khusuf/Kusuf)</li>
           <li>Panduan & keutamaan singkat</li>
         </CardService>
+      </section>
+      <section className="w-full max-w-6xl mx-auto px-4">
         <CardService title="Tata Cara Sholat 5 Waktu">
-          {sholats.map((sholat) => (
-            <li
-              key={sholat.id}
-              className="cursor-pointer flex items-center justify-between"
-            >
-              {sholat.nama}
-              <span className=" md:text-sm text-[11px] text-primary rounded-full">
-                Detail
-              </span>
-            </li>
-          ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {sholats.map((sholat) => (
+              <Link
+                href={`/sholat/${sholat.id}`}
+                key={sholat.id}
+                className="bg-gray-800/60 rounded-xl md:p-3 p-2 border border-gray-700 hover:border-emerald-500 transition-all duration-200 hover:shadow-lg hover:shadow-emerald-500/10"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-100 font-medium">
+                    {sholat.nama}
+                  </span>
+                  <span className="text-xs md:text-sm text-emerald-400">
+                    Detail
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
         </CardService>
       </section>
 

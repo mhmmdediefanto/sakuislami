@@ -1,6 +1,9 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
 import ListDoa from "./components/ListDoa";
+import { Metadata } from "next";
+import { generateSeoMetadata } from "@/lib/seo";
+import { SITE_NAME, SITE_URL } from "@/constants/seo";
 
 const fetchDoa = async () => {
   const res = await fetch("https://equran.id/api/doa", {
@@ -9,6 +12,13 @@ const fetchDoa = async () => {
   const data = await res.json();
   return data.data;
 };
+
+export const metadata: Metadata = generateSeoMetadata({
+  title: `Doa - Harian | ${SITE_NAME}`,
+  description:
+    "Kumpulan doa-doa harian dalam Islam lengkap dengan teks Arab, transliterasi, dan terjemahan bahasa Indonesia",
+  url: SITE_URL,
+});
 
 const page = async () => {
   const doa = await fetchDoa();
@@ -30,7 +40,7 @@ dan mengingatkan kita bahwa setiap detik adalah kesempatan untuk mendekat kepada
           </p>
         </div>
 
-       <ListDoa doas={doa} />
+        <ListDoa doas={doa} />
       </div>
     </>
   );
