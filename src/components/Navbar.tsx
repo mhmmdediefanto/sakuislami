@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Home, BookText, HandHeart, Gamepad2, Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 type NavItem = {
   label: string;
@@ -39,7 +40,9 @@ const Navbar = () => {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 font-quicksand">
         {/* Brand */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="inline-block h-8 w-8 rounded-md bg-emerald-500/20 ring-1 ring-emerald-400/30"></span>
+          <span className=" flex items-center justify-center h-8 w-8 rounded-md bg-emerald-500/20 ring-1 ring-emerald-400/30">
+          <Image src={'/logo.png'} width={35} height={35} alt="logo" />
+          </span>
           <span className="text-lg font-semibold text-emerald-400">
             SakuIslamI.id
           </span>

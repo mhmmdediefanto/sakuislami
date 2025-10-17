@@ -4,7 +4,7 @@ import { Wrench } from "lucide-react"; // Mengimpor ikon
 
 export default function MaintenancePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-slate-50 p-4">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-slate-50 p-4 font-quicksand">
       <div className="flex flex-col items-center text-center">
         {/* Ikon Maintenance */}
         <Wrench className="h-20 w-20 text-slate-400" />

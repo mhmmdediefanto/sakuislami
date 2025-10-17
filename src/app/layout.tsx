@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   title: "Saku Islami Digital Indonesia",
   description:
     "Saku Islami Digital Indonesia adalah platform yang membantu Anda untuk mempelajari dan memahami Al Quran dengan cara yang lebih efektif dan efisien.",
+  openGraph: {
+    title: "Saku Islami Digital Indonesia",
+    description:
+      "Saku Islami Digital Indonesia adalah platform yang membantu Anda untuk mempelajari dan memahami Al Quran dengan cara yang lebih efektif dan efisien.",
+  },
+  icons: {
+    icon: "/logo.png"
+  }
 };
 
 export default function RootLayout({

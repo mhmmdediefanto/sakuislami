@@ -39,7 +39,6 @@ export function generateSeoMetadata({
     alternates: {
       canonical: url,
     },
-
     // B. Open Graph
     openGraph: {
       title: fullTitle,

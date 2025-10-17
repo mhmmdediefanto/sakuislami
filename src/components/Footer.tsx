@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Github, Twitter, Facebook, Mail } from "lucide-react";
+import Image from "next/image";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -13,7 +14,9 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-3 flex items-center gap-2">
-              <span className="inline-block h-8 w-8 rounded-md bg-emerald-500/20 ring-1 ring-emerald-400/30"></span>
+              <span className=" flex items-center justify-center h-8 w-8 rounded-md bg-emerald-500/20 ring-1 ring-emerald-400/30">
+                <Image src={"/logo.png"} width={35} height={35} alt="logo" />
+              </span>
               <span className="text-lg font-semibold text-emerald-400">
                 SakuIsLamI.id
               </span>
